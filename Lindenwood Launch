@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lindenwood Launch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+        
+</head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Lindenwood Launch</a>
+
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu"
+                >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav item">
+                        <a href="#learn" class="nav-link">What You'll Learn</a>
+                    </li>
+                    <li class="nav item">
+                        <a href="#Admissions" class="nav-link">Summer Camp Admissions</a>
+                    </li>
+                    <li class="nav item">
+                        <a href="#Mentors" class="nav-link">Mentors</a>
+                    </li>
+                    <li class="nav item">
+                        <a href="#FAQ" class="nav-link">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+               <h1>Launch a <span class="text-warning">Real Startup</span> in One Summer</h1>
+               <p class="lead my-4">Focusing on the core concepts of the Lean Canvas and Customer Validation, the Lindenwood Launch summer camp provides an immersive experience for high school students to learn entrepreneurship fundamentals.
+               </p>
+               <button class="btn btn-primary btn-lg">Enroll Now</button>
+                </div>
+            <img class="img-fluid w-50 d-none d-sm-block" src="img/collaboration.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <!-- Pricing or Compare Boxes-->
+    <!-- Learn Sections-->
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md"><img src="img/validate.svg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md p=5">
+            <h2>Validate Your Idea</h2>
+            <p>
+              <p class="lead">
+                Students will vote on the best pitch ideas and teams will form to collaborate and execute on those ideas.  
+              </p>
+              <p>
+                Learn how to use innovative tools like the Business Model Canvas and "Get out of the building!" to validate your product ideas.
+              </p>
+              <a href="#" class="btn btn-light mt-3">
+                <i class="bi bi-chevron-right">Read More</i>
+              </a>
+            </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+            <div class="col-md p=5">
+            <h2>Create A Prototype</h2>
+            <p>
+              <p class="lead">
+                Your team will create a Lo-Fi minimum viable product or bootstrap a website to demonstrate your idea.
+              </p>
+              <p>
+                Beta test your product with real customers and validate (or Invalidate?) your assumptions and refine what you've learned.
+              </p>
+              <a href="#" class="btn btn-light mt-3">
+                <i class="bi bi-chevron-right">Read More</i>
+              </a>
+            </p>
+            </div>
+            <div class="col-md">
+                <img src="img/create.svg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md"><img src="img/pitch.svg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md p=5">
+            <h2>Pitch Your Business</h2>
+            <p>
+              <p class="lead">
+                Pitch your product, validated learnings and refined idea to a panel of Mentors, Entrepreneteurs and potential Investors.
+              </p>
+              <p>
+                Compete for bragging rights (or perhaps something more substantial?) and launch your business.
+              </p>
+              <a href="#" class="btn btn-light mt-3">
+                <i class="bi bi-chevron-right">Read More</i>
+              </a>
+            </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="FAQ" class="p-5 bg-dark text-light">
+<div class="container">
+    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+    <div class="accordion accordion-flush" id="Questions">
+        <!-- Item -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#Question-one" 
+            >
+              How long is the program?
+            </button>
+          </h2>
+          <div id="Question-one" 
+          class="accordion-collapse collapse" 
+          data-bs-parent="#Questions">
+            <div class="accordion-body">4 weeks <br> ipsum dolor sit amet consectetur adipisicing elit. Sunt consequuntur natus, asperiores reiciendis pariatur quo excepturi, mollitia aliquam corrupti dicta in atque repudiandae maxime, dolorem sit eos vitae sequi veniam incidunt temporibus error odit! Saepe, eum qui, nihil culpa iste atque obcaecati sunt quas, modi incidunt rem debitis nisi ipsam.</div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#Question-two" 
+              >
+                How much does it cost to attend?
+              </button>
+            </h2>
+            <div id="Question-two" 
+            class="accordion-collapse collapse" 
+            data-bs-parent="#Questions">
+              <div class="accordion-body">$4,995 <br>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt consequuntur natus, asperiores reiciendis pariatur quo excepturi, mollitia aliquam corrupti dicta in atque repudiandae maxime, dolorem sit eos vitae sequi veniam incidunt temporibus error odit! Saepe, eum qui, nihil culpa iste atque obcaecati sunt quas, modi incidunt rem debitis nisi ipsam.</div>
+            </div>
+          </div>
+        <!-- Item 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#Question-three" 
+              >
+                What is the selection process?
+              </button>
+            </h2>
+            <div id="Question-three" 
+            class="accordion-collapse collapse" 
+            data-bs-parent="#Questions">
+              <div class="accordion-body">Class size is limited to 40 students <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt consequuntur natus, asperiores reiciendis pariatur quo excepturi, mollitia aliquam corrupti dicta in atque repudiandae maxime, dolorem sit eos vitae sequi veniam incidunt temporibus error odit! Saepe, eum qui, nihil culpa iste atque obcaecati sunt quas, modi incidunt rem debitis nisi ipsam.</div>
+            </div>
+          </div>
+      </div>
+</div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
